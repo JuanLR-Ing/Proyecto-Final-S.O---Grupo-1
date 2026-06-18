@@ -1,0 +1,28 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.frontend
+    container_name: proyecto-frontend
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend:/var/www/html
+    restart: unless-stopped
+    networks:
+      - proyecto-network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.backend
+    container_name: proyecto-backend
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+    networks:
+      - proyecto-network
+
+networks:
+  proyecto-network:
+    driver: bridge
