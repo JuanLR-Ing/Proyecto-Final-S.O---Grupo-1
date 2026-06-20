@@ -40,7 +40,8 @@ const IMAGENES = {
 
   
   arquitectura: [
-    { src: "Arquitectura/Diagrama de arquitectura.jpg",  titulo: "Diagrama de arquitectura",  autor: "Grupo 1" },
+    { src: "arquitec/Diagrama de arquitectura.jpg",  titulo: "Diagrama de arquitectura",  autor: "Grupo 1" },
+  
   ],
 
   equipo: [
