@@ -1,1 +1,55 @@
-<h1>Proyecto grupo 1 </h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<title>Arquitecto Cloud — Grupo 1</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="crt-frame">
+
+  <header class="marquee">
+    <div class="marquee-lights">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <span class="marquee-title">GRUPO 1 :: ARQUITECTO CLOUD</span>
+    <div class="marquee-lights">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <nav>
+    <button onclick="show('home')" class="active">Inicio</button>
+    <button onclick="show('equipo')">Equipo</button>
+    <button onclick="show('componentes')">Componentes</button>
+    <button onclick="show('arquitectura')">Arquitectura</button>
+    <button onclick="show('conclusiones')">Conclusiones</button>
+  </nav>
+
+  <!-- ===== INICIO ===== -->
+  <div id="home" class="home-centered">
+    <h1>Proyecto Final<br>Arquitecto Cloud</h1>
+
+    <h3 class="fases-titulo">Fases del Proyecto</h3>
+    <div class="boot-sequence">
+      <p class="boot-line">
+        <span class="piece piece-l" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        FASE 1 — VIRTUALIZACIÓN <span class="status">LISTO</span>
+      </p>
+      <p class="boot-line">
+        <span class="piece piece-i" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        FASE 2 — DOCKER <span class="status">LISTO</span>
+      </p>
+      <p class="boot-line">
+        <span class="piece piece-t" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        FASE 3 — KUBERNETES <span class="status">LISTO</span>
+      </p>
+      <p class="boot-line">
+        <span class="piece piece-s" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        FASE 4 — DEPLOY <span class="status">LISTO</span>
+      </p>
+    </div>
+  </div>
