@@ -28,7 +28,7 @@
 
 #### Particionado Ubuntu
 
-![Particionado Ubuntu](Particionado-Ubuntu.jpeg)
+![Particionado Ubuntu](Componente1/Particionado-Ubuntu.jpeg)
 
 #### Particionado Debian
 
@@ -133,8 +133,19 @@ minikube service nginx --url
 ## Conclusiones
 
 1. [Aprendizaje principal]
+- Juan José Lozano: Lo más valioso fue entender Linux, los contenedores y GitHub como herramienta colaborativa.
+- Alejandro Borrero: Lo que más me gustó aprender fue crear y usar máquinas virtuales y GitHub como herramienta para trabajo en equipo
+- Camila Mallama: Aprendí cómo Kubernetes permite administrar y escalar aplicaciones de forma más sencilla, especialmente mediante el uso de pods, deployments y servicios.
+
 2. [Dificultad encontrada y cómo se resolvió]
+- Juan José Lozano: La mayor dificultad fue la instalación de Ubuntu, que se congelaba por falta de RAM en la VM. Al asignar más memoria se resolvió. Docker enseñó que la sintaxis debe ser precisa. 
+- Alejandro Borrero: Sin dificultades mayores gracias a la investigación previa.
+- Camila Mallama: La mayor dificultad fue configurar Minikube y lograr que los pods se levantaran correctamente, ya que cualquier error en los manifiestos YAML hacía que el despliegue fallara.
+
 3. [Recomendación para futuros proyectos]
+
+- Recomendación común por parte los integrantes del grupo 1: Intenten realizar el proyecto con más tiempo para evitar dolores de cabeza, estrés, contratiempos y preguntarle consejos al profesor sobre acontecimientos que salgan en el desarrollo del proyecto.
+
 
 ---
 
