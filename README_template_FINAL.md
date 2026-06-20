@@ -8,10 +8,9 @@
 
 | Nombre | Código | Rol |
 |--------|--------|-----|
-| Alejandro Borrero | 202560904 | Virtualización |
-| Juan José Lozano | 2560998 | Docker |
-| Camila mallama | 2560968 | Kubernetes |
-| Nombre 4 | 20XXXXXX | Sitio Web + Documentación |
+| Alejandro Borrero | 202560904 | Virtualización + Sitio Web + Documentación |
+| Juan José Lozano | 2560998 | Docker + Sitio Web + Documentación |
+| Camila mallama | 2560968 | Kubernetes + Sitio Web + Documentación |
 
 **Grupo asignado:** Grupo 1
 **Distribución gráfica:** Ubuntu 24.04 LTS  
@@ -32,15 +31,15 @@
 
 #### Particionado Debian
 
-![Particionado Debian](Particionado-Debian.jpeg)
+![Particionado Debian](Componente1/Particionado-Debian.jpeg)
 
 #### Configuración de red
 
-![Configuración de red](ip-debian.jpeg)
+![Configuración de red](Componente1/ip-debian.jpeg)
 
 #### Conexión SSH
 
-![SSH funcional](ssh-conexion.jpeg)
+![SSH funcional](Componente1/ssh-conexion.jpeg)
 
 ### Comandos principales
 ```bash
@@ -71,6 +70,7 @@ docker/
 
 ### Evidencias
 - Captura `docker compose up -d`
+## insertar la imagen justo como se hizo en la parte de arriba de evidencias
 - Captura navegador accediendo al frontend
 - Captura `curl http://localhost:5000`
 
@@ -95,6 +95,7 @@ curl http://localhost:5000
 
 ### Evidencias
 - Captura `kubectl get pods`
+## insertar la imagen justo como se hizo en la parte de arriba de evidencias
 - Captura `kubectl get svc`
 - Captura acceso desde navegador
 - Captura escalado a 3 réplicas
@@ -114,7 +115,7 @@ minikube service nginx --url
 ## Componente 4: Sitio Web de Documentación
 
 **URL del sitio:** [https://juanlr-ing.github.io/Proyecto-Final-S.O---Grupo-1/]  
-**Video YouTube:** [https://docs.google.com/document/d/1znGM8lgpjpGu7HLbOfmS4dKsGPz6wJAv_VedR7is1nE/edit?tab=t.0] 
+**Video YouTube:** [https://youtu.be/E95nbS30v-k?si=GBAOPvTbYjz6v9L9] 
 
 ### Secciones del sitio
 - Home: introducción y objetivos
@@ -126,7 +127,10 @@ minikube service nginx --url
 
 ## Diagrama de Arquitectura
 
-> Insertar imagen del diagrama (draw.io / Miro / Lucidchart)
+
+![Diagrama de arquitectura](<docs/arquitec/Diagrama de arquitectura.jpg>)
+
+
 
 ---
 
